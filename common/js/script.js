@@ -1,8 +1,5 @@
 $(document).ready(function () {
 
-    $('.icon-mn-sp').click(function () {
-        $('ul.menu').slideToggle('blind');
-    });
     // back top
     $(function () {
         var topBtn = $('#page_top');
@@ -47,35 +44,50 @@ $(document).ready(function () {
     //     mvp.setAttribute("content", "width=device-width,initial-scale=1");
     // }
 
-    var $slider = $('.slider');
 
-    if ($slider.length) {
-    var currentSlide;
-    var slidesCount;
-    var sliderCounter = document.createElement('div');
-    sliderCounter.classList.add('slider__counter');
-    
-    var updateSliderCounter = function(slick, currentIndex) {
-        currentSlide = slick.slickCurrentSlide() + 1;
-        slidesCount = slick.slideCount;
-        $(sliderCounter).text(currentSlide)
-        // $(sliderCounter).text(currentSlide + '/' +slidesCount)
-    };
+    var $status = $('.pagingInfo');
+    var $slickElement = $('.slider');
 
-    $slider.on('init', function(event, slick) {
-        $slider.append(sliderCounter);
-        updateSliderCounter(slick);
+    $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        if (!slick.$dots) {
+            return;
+        }
+
+        var i = (currentSlide ? currentSlide : 0) + 1;
+        $status.text(i + '/' + (slick.$dots[0].children.length));
     });
 
-    $slider.on('afterChange', function(event, slick, currentSlide) {
-        updateSliderCounter(slick, currentSlide);
+    $slickElement.slick({
+        infinite: true,
+        slidesToShow: 1,
+        autoplay: true,
+        dots: true,
+        arrows: false,
+        slidesToScroll: 1,
+        autoplaySpeed: 3000,
+        fade: true,
+        cssEase: 'linear',
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        customPaging: function (slider, i) {
+            var numslide = i + 1;
+            if(numslide<10){
+                numslide = "0" + numslide;
+            }
+            var thumb = $(slider.$slides[i]).data();
+            return '<a class="dot">' + numslide + '</a>';
+        },
     });
 
-    $slider.slick();
-    }
 
     AOS.init({
         disable: 'mobile',
         once: true,
     });
+
+    $(".hamber_menu").click(function (){
+        $(this).parent().toggleClass("active");
+        $(this).parents("header").toggleClass("active");
+    })
 });

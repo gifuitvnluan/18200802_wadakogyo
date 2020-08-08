@@ -1,10 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta id="testViewport" name="viewport" content="width=1280">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta id="testViewport" name="viewport" content="width=1280"> -->
     <meta name="format-detection" content="telephone=no">
     <title>株式会社和田工業</title>
     <!-- Keywords & Description -->
@@ -12,7 +13,7 @@
     <meta name="description" content="">
     <!-- End keywords & Description -->
     <!-- Favicon -->
-    <!--<link rel="shortcut icon" href="fav-ico.png" type="image/x-icon" />-->
+    <link rel="shortcut icon" href="./common/img/fav-ico.png" type="image/x-icon" />
     <!-- End favicon -->
     <!-- Css reset -->
     <link rel="stylesheet" type="text/css" href="common/css/bootstrap.min.css">
@@ -21,7 +22,6 @@
     <link rel="stylesheet" type="text/css" href="./common/css/jquery.fancybox.css">
     <link rel="stylesheet" type="text/css" href="./common/css/aos.css">
     <link rel="stylesheet" type="text/css" href="./common/css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="./common/css/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="common/css/style.css">
     <link rel="stylesheet" type="text/css" href="css/top.css">
     <link rel="stylesheet" type="text/css" href="common/css/reponsive.css">
@@ -45,6 +45,50 @@
                     <img src="./common/img/hd_menu.svg" alt="MENU" class="menu_nor">
                     <img src="./common/img/hd_menu_cl.svg" alt="MENU" class="menu_ope">
                 </div>
+                <div class="list_menu">
+                    <div class="all_list_content">
+                        <div class="txt">MENU</div>
+                        <div class="list_2row">
+                            <div class="rowlist row1">
+                                <ul>
+                                    <li>
+                                        <a href="./">TOP</a>
+                                    </li>
+                                    <li>
+                                        <a href="./business.html">事業内容</a>
+                                        <ul class="sub_menu">
+                                            <li><a href="./fastest.html">世界最速の切断</a></li>
+                                            <li><a href="./machine.html">設備・製品紹介</a></li>
+                                            <li><a href="./customers.html">お客様からの声</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="./company.html">会社案内</a>
+                                    </li>
+                                    <li>
+                                        <a href="./recruit.html">採用情報</a>
+                                        <ul class="sub_menu">
+                                            <li><a href="./message.html">先輩メッセージ</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="rowlist row2">
+                                <ul>
+                                    <li>
+                                        <a href="./contact.html">お問い合わせ</a>
+                                    </li>
+                                    <li>
+                                        <a href="./information.html">新着情報</a>
+                                    </li>
+                                    <li>
+                                        <a href="./privacy.html">プライバシーポリシー</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -52,21 +96,124 @@
     <!-- Content -->
     <main>
         <section id="sec_slide">
+            <span class="pagingInfo"></span>
             <div class="slider">
-                <div><img src="./img/top/slide_01.jpg" alt="株式会社和田工業"></div>
-                <div><img src="./img/top/slide_02.jpg" alt="株式会社和田工業"></div>
-                <div><img src="./img/top/slide_03.pjpgng" alt="株式会社和田工業"></div>
+                <div class="item" style="background-image: url(./img/top/slide_01.jpg);">
+                    <img src="./img/top/slide_01.jpg" alt="株式会社和田工業">
+                </div>
+                <div class="item" style="background-image: url(./img/top/slide_02.jpg);">
+                    <img src="./img/top/slide_02.jpg" alt="株式会社和田工業">
+                </div>
+                <div class="item" style="background-image: url(./img/top/slide_03.jpg);">
+                    <img src="./img/top/slide_03.jpg" alt="株式会社和田工業">
+                </div>
+            </div>
+
+            <div class="btn_scroll">
+                <a href="#" class="hv-o">
+                    <img src="./img/top/mouse.svg" alt="scroll down">
+                </a>
             </div>
             <div class="txt_onslide">
-                
+                <div class="all_txt">
+                    <img src="./img/top/txt_slide.svg" alt="今日も一日、パイプを切る。" class="img hide_sp">
+                    <img src="./img/top/txt_slide_sp.svg" alt="今日も一日、パイプを切る。" class="img show_sp">
+                    <div class="txt">自動車用部品をはじめとした分野で、世界最速<br class="show_sp">のパイプ切断と加工を実現。<br>高い生産設備能力による“高品質”で“短納期”<br class="show_sp">のサービスを提供します。</div>
+                </div>
             </div>
         </section>
+        <!-- End #sec_slide -->
+
+        <section id="sec_ft">
+            <div class="cont">
+                <div class="title">
+                    <img src="./common/img/ft_contact01.svg" alt="CONTACT">
+                </div>
+                <div class="txt">
+                    お見積り・ご相談などお気軽にお問い合わせください。
+                </div>
+                <div class="div_2">
+                    <div class="col">
+                        <a href="tel:0562962881">
+                            <img src="./common/img/ft_tel.svg" alt="TEL0562-96-2881" class="tel_ft">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="./contact.html" class="hv-o">
+                            <img src="./common/img/ft_mail.svg" alt="MAIL FORM" class="form_ft">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End #sec_ft -->
     </main>
     <!-- End content -->
 
     <!-- Footer -->
     <footer>
-
+        <div class="all_ft">
+            <div class="cont">
+                <div class="ft_logo">
+                    <a href="./" class="logo hv-o">
+                        <img src="./common/img/ft_logo.svg" alt="株式会社和田工業">
+                    </a>
+                    <a href="#" target="_blank" class="hv-o fb_logo">
+                        <img src="./common/img/ft_fb.svg" alt="FaceBook">
+                    </a>
+                </div>
+                <div class="txt">
+                    <div class="txt01">
+                        〒470－1141 愛知県豊明市阿野町長根2番地1　<a
+                            href="https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC%E3%80%81%E3%80%92470-1141+%E6%84%9B%E7%9F%A5%E7%9C%8C%E8%B1%8A%E6%98%8E%E5%B8%82%E9%98%BF%E9%87%8E%E7%94%BA%E9%95%B7%E6%A0%B9%EF%BC%92%E2%88%92%EF%BC%91/@35.0472807,137.000834,17z/data=!3m1!4b1!4m5!3m4!1s0x600362971b4be06b:0xd9d379f35ac38043!8m2!3d35.0472763!4d137.0030227?hl=ja"
+                            target="_blank" class="link">>google map</a>
+                    </div>
+                    <div class="txt02">
+                        TEL：<a href="tel:0562962881">0562-96-2881</a>　FAX：0562-96-2880
+                    </div>
+                </div>
+                <div class="ft_menu">
+                    <ul>
+                        <li>
+                            <a href="./">TOP</a>
+                        </li>
+                        <li>
+                            <a href="./business.html">事業内容</a>
+                            <ul class="sub_menu">
+                                <li><a href="./fastest.html">世界最速の切断</a></li>
+                                <li><a href="./machine.html">設備・製品紹介</a></li>
+                                <li><a href="./customers.html">お客様からの声</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./company.html">会社案内</a>
+                        </li>
+                        <li>
+                            <a href="./recruit.html">採用情報</a>
+                            <ul class="sub_menu">
+                                <li><a href="./message.html">先輩メッセージ</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./contact.html">お問い合わせ</a>
+                        </li>
+                        <li>
+                            <a href="./information.html">新着情報</a>
+                        </li>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+                    </ul>
+                </div>
+                <div class="ft_pri">
+                    <a href="./privacy.html">
+                        <img src="./common/img/ft_pri.svg" alt="Privacy Policy">Privacy Policy
+                    </a>
+                </div>
+            </div>
+            <div class="div_copy">
+                <div class="cont">
+                    Copyright© 2020 WADA INDUSTRY Co., Ltd. All Rights Reserved.
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- End footer -->
