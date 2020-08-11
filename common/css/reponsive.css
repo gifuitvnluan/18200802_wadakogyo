@@ -176,6 +176,48 @@
 
 @media screen and (max-width:767px) {
 
+    footer .all_ft .div_copy {
+        margin-top: 1vw;
+        font-size: 1.695vw;
+        height: 5.215vw;
+    }
+
+    footer .all_ft .ft_logo,
+    footer .all_ft .ft_logo .logo img {
+        width: 58.279vw;
+    }
+
+    footer .all_ft .ft_logo a.fb_logo {
+        right: auto;
+        position: relative;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        margin-top: 5.867vw;
+    }
+
+    footer .all_ft .txt {
+        font-size: 2.216vw;
+    }
+
+    footer .all_ft .txt .txt01 {
+        margin-top: 7.062vw;
+    }
+
+    footer .all_ft .ft_menu {
+        margin-top: 5.5vw;
+    }
+
+    footer .all_ft .ft_logo a.fb_logo img {
+        width: 7.823vw;
+    }
+
+    footer .all_ft .ft_pri {
+        display: none;
+    }
+
     #sec_ft .title img {
         width: 32.073vw;
     }
