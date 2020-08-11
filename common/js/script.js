@@ -19,6 +19,23 @@ $(document).ready(function () {
         });
     });
 
+    $('#sec_slide .btn_scroll a').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top - 0
+                }, 900);
+                return false;
+            } else {
+                $('html,body').animate({
+                    scrollTop: target.offset().top - 0
+                }, 900);
+            }
+        }
+    });
+
 
     // tel sp
     var ua = navigator.userAgent.toLowerCase();
@@ -89,5 +106,9 @@ $(document).ready(function () {
     $(".hamber_menu").click(function (){
         $(this).parent().toggleClass("active");
         $(this).parents("header").toggleClass("active");
+        $(window).delay(1).queue(function(next){
+            $(".hamber_menu").css("z-index",3);
+            next();
+        }); 
     })
 });

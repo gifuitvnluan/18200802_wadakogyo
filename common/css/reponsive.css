@@ -293,6 +293,12 @@
         padding-left: 8.475vw;
     }
 
+    header .all_header .hd_menu .list_menu .all_list_content{
+        overflow-y: auto;
+        overflow-x: hidden;
+        max-height: 90vh;
+    }
+
     header .all_header .hd_menu .list_menu .all_list_content .txt::before {
         width: 7.823vw;
         top: 2.634vw;

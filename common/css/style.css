@@ -152,6 +152,9 @@ header .all_header .hd_menu.active .hamber_menu img.menu_nor {
 
 header .all_header .hd_menu .hamber_menu {
 	position: relative;
+}
+
+header .all_header .hd_menu .hamber_menu.active {
 	z-index: 3;
 }
 
