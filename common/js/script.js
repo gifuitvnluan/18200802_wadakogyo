@@ -1,20 +1,20 @@
 $(document).ready(function () {
 
     // back top
-    $(function () {
-        var topBtn = $('#page_top');
-        topBtn.hide();
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 100) {
-                topBtn.fadeIn();
+    var topBtn = $('.backtop'); 
+    topBtn.hide(); 
+    $(function() {
+        $(window).scroll(function() { 
+            if ($(this).scrollTop() > 100) { 
+                topBtn.fadeIn(); 
             } else {
                 topBtn.fadeOut();
             }
         });
-        topBtn.click(function () {
+        topBtn.click(function() { 
             $('body,html').animate({
                 scrollTop: 0
-            }, 600);
+            }, 1000);
             return false;
         });
     });

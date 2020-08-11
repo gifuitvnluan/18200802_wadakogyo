@@ -466,3 +466,21 @@ footer .all_ft .div_copy {
 	align-items: center;
 	justify-content: center;
 }
+
+.backtop{
+	position: fixed;
+	bottom:60px;
+	right:20px;
+	width: 70px;
+	z-index: 9;
+	cursor: pointer;
+	transition: opacity 0.5s ease;
+	-webkit-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	-ms-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+}
+
+.backtop:hover{
+	opacity: 0.75;
+}

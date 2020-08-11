@@ -176,6 +176,16 @@
 
 @media screen and (max-width:767px) {
 
+    #top_02 .row50 .img{
+        width: 100%;
+    }
+
+    .backtop{
+        bottom:30px;
+        right:10px;
+        width: 50px;
+    }
+
     footer .all_ft .div_copy {
         margin-top: 1vw;
         font-size: 1.695vw;
@@ -332,6 +342,7 @@
 
     header .all_header .hd_logo {
         width: 46.415vw;
+        margin-top: 2.608vw;
     }
 
     header .all_header .hd_menu .hamber_menu img {
