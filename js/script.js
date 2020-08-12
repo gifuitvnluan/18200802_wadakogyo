@@ -104,6 +104,11 @@ $(document).ready(function () {
     });
 
     $(".hamber_menu").click(function (){
+        if ($(".add_header").length > 0) {
+            $(".add_header").remove();
+        }else{
+            $(this).parents("header.hd_all_page").before("<div class='add_header' style='width: 100%; height: "+$(this).parents("header").outerHeight()+"px'></div>")
+        }
         $(this).parent().toggleClass("active");
         $(this).parents("header").toggleClass("active");
         $(window).delay(1).queue(function(next){

@@ -23,8 +23,6 @@
     <link rel="stylesheet" type="text/css" href="./css/aos.css">
     <link rel="stylesheet" type="text/css" href="./css/slick.css" />
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="./css/top.css">
-    <link rel="stylesheet" type="text/css" href="./css/reponsive.css">
     <!-- End css reset -->
     <!-- Jquery library -->
     <!-- End jquery library -->
@@ -33,7 +31,7 @@
 
 <body>
     <!-- Header -->
-    <header>
+    <header class="hd_all_page">
         <div class="all_header">
             <div class="hd_logo">
                 <a href="./" class="hv-o">
@@ -95,151 +93,239 @@
     <!-- End header -->
     <!-- Content -->
     <main>
-        <section id="sec_slide">
-            <span class="pagingInfo"></span>
-            <div class="slider">
-                <div class="item" style="background-image: url(./img/slide_01.jpg);">
-                    <img src="./img/slide_01.jpg" alt="株式会社和田工業">
-                </div>
-                <div class="item" style="background-image: url(./img/slide_02.jpg);">
-                    <img src="./img/slide_02.jpg" alt="株式会社和田工業">
-                </div>
-                <div class="item" style="background-image: url(./img/slide_03.jpg);">
-                    <img src="./img/slide_03.jpg" alt="株式会社和田工業">
-                </div>
-            </div>
 
-            <div class="btn_scroll">
-                <a href="#top_info" class="hv-o">
-                    <img src="./img/mouse.svg" alt="scroll down" class="hide_sp">
-                    <img src="./img/mouse_sp.svg" alt="scroll down" class="show_sp">
-                </a>
-            </div>
-            <div class="txt_onslide">
-                <div class="all_txt">
-                    <img src="./img/txt_slide.svg" alt="今日も一日、パイプを切る。" class="img hide_sp">
-                    <img src="./img/txt_slide_sp.svg" alt="今日も一日、パイプを切る。" class="img show_sp">
-                    <div class="txt">自動車用部品をはじめとした分野で、世界最速<br class="show_sp">のパイプ切断と加工を実現。<br>高い生産設備能力による“高品質”で“短納期”<br
-                            class="show_sp">のサービスを提供します。</div>
-                </div>
-            </div>
+        <section id="page_banner">
+            <div class="img" style="background-image: url(./img/bus_banner.jpg);"></div>
+            <h2 class="text">
+                <img class="banner_bus" src="./img/bus_banner_txt.svg" alt="OUR BUSINESS">
+                <span class="txt">事業内容</span>
+            </h2>
         </section>
-        <!-- End #sec_slide -->
+        <!-- End #page_banner -->
 
-        <section id="top_info">
-            <div class="title_info">
-                <img src="./img/top_info01.svg" alt="お知らせ">
-            </div>
-            <a class="all_txt" href="./information.html">
-                <div class="date">
-                    2020.00.00
-                </div>
-                <div class="cate">
-                    新着情報
-                </div>
-                <div class="txt">
-                    ここにテキストが入ります。ここにテキストが入ります。
-                </div>
-            </a>
-        </section>
-        <!-- End #top_info -->
-
-
-        <section id="top_01">
+        <section id="page_breadcrumb">
             <div class="cont">
-                <div class="title">
-                    <img src="./img/top_info04.svg" class="hide_sp" alt="パイプの切断・加工は、和田工業へお任せください。">
-                    <img src="./img/top_info04_sp.svg" class="show_sp" alt="パイプの切断・加工は、和田工業へお任せください。">
-                </div>
-                <div class="table">
-                    <img src="./img/top_info05.svg" alt="大量厚肉薄肉小径硬い柔らかい">
-                </div>
-                <div class="txt">
-                    当社は、ハイテン鋼、ステンレス（SUS）をはじめとした各種鋼材の切断・加工事業を展開しています。<br>
-                    創業以来、切断業界の先駆者として、高品質で短納期の加工を実現してまいりました。従来のパイプ切断とは一線を画した高速自動切断により、急なご依頼や、大ロットにも迅速に対応出来るのが当社の強みとなっています。<br>
-                    「厚肉・薄肉・小径・硬い・柔らかい」など多様な素材の加工を得意としており、難削材にも対応しています。今後もお客様のニーズにフィットした製品を提供してまいります。
+                <ul>
+                    <li><a href="./">TOP</a></li>
+                    <li>事業内容</li>
+                </ul>
+            </div>
+        </section>
+        <!-- End #page_banner -->
+
+        <section id="bus_sec01">
+            <div class="cont">
+                <img src="./img/bus_img01.png" class="img" alt="パイプの切断・加工は和田工業へ">
+                <div class="all_text">
+                    <div class="txt">
+                        <img src="./img/bus_img01_txt.svg" alt="Cutting and Chamfering">
+                    </div>
+                    <h3 class="txt2">
+                        パイプの切断・加工は和田工業へ
+                    </h3>
                 </div>
             </div>
         </section>
-        <!-- End #top_01 -->
+        <!-- End #bus_sec01 -->
 
-        <section id="top_02">
-            <div class="row50" style="background-image: url(./img/top_img02.jpg)">
-                <div class="text">
-                    <img src="./img/top_img02_sp.jpg" alt="事業内容" class="img show_sp">
-                    <div class="img_title">
-                        <img src="./img/top_img01.svg" alt="OUR BUSINESS" class="img_bus">
-                    </div>
+        <section id="bus_sec02">
+            <div class="div_bg"></div>
+            <div class="cont2">
+                <div class="col50_1">
+                    <img src="./img/bus_img02.svg" alt="パイプ業界を担い、トップクラスの業界シェアを誇る和田工業のパイプ切断。">
+                </div>
+                <div class="col50_2">
                     <div class="title">
-                        事業内容
+                        パイプ業界を担い、<br>
+                        トップクラスの業界シェアを誇る<br>
+                        和田工業のパイプ切断。
                     </div>
                     <div class="txt">
-                        １本１本のパイプに向き合い「世界最速」と「世界最高」のサービス提供にこだわり続<br class="hide_sp">けます。品質マネジメントシステム「ISO9001」を認証取得し、お客様のニーズを満<br class="hide_sp">たした高品質な製品を提供し続けています。
-                    </div>
-                    <div class="div_btn">
-                        <a href="./business.html">詳しくみる</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row50">
-                <div class="col50" style="background-image: url(./img/top_img04.jpg)">
-                    <div class="text">
-                        <img src="./img/top_img04_sp.jpg" alt="事業内容" class="img show_sp">
-                        <div class="img_title">
-                            <img src="./img/top_img03.svg" alt="COMPANY" class="img_com">
-                        </div>
-                        <div class="title">
-                            会社案内
-                        </div>
-                        <div class="txt">
-                            「真摯」の社是の下、切断業界の先駆者として、誠実で革新的な経<br class="hide_sp">営に取り組んでいます。
-                        </div>
-                        <div class="div_btn">
-                            <a href="./company.html">詳しくみる</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col50" style="background-image: url(./img/top_img06.jpg)">
-                    <div class="text">
-                        <img src="./img/top_img06_sp.jpg" alt="事業内容" class="img show_sp">
-                        <div class="img_title">
-                            <img src="./img/top_img05.svg" alt="RECRUIT" class="img_rec">
-                        </div>
-                        <div class="title">
-                            採用情報
-                        </div>
-                        <div class="txt">
-                            和田工業でオンリーワンの仕事を始めてみませんか。新たな一歩を<br class="hide_sp">踏み出す皆さんを応援します。
-                        </div>
-                        <div class="div_btn">
-                            <a href="./recruit.html">詳しくみる</a><a href="./message.html">先輩メッセージ</a>
-                        </div>
+                        和田工業では、ハイテン鋼、ステンレス（SUS）をはじめとした各種鋼材の切断・加工事業を展開しています。<br>
+                        当社の加工技術は、様々な自動車メーカーに採用される自動車用部品を中心に、ガス機器や建築部材など高精度を要求される幅広い分野で活用されています。<br>
+                        独自の技術を活かし、対応が難しい加工のご依頼にもお応えしてまいりました。今では「難しい案件は和田工業へ」といわれるほどお客様からの厚い信頼を得ており、品質でもスピードでも高い評価をいただいています。<br><br>
+                        従来のパイプ切断とは一線を画した高速自動切断により、急なご依頼や、大ロットにも迅速に対応出来るのが当社の強みとなっています。「厚肉・薄肉・小径・硬い・柔らかい」など多様な素材の加工を得意としており、難削材にも対応しています。<br>
+                        今後もお客様のニーズを満たした高品質な製品を提供してまいります。<br>
+                        パイプの切断・加工は是非、和田工業にお任せください。
                     </div>
                 </div>
             </div>
+            <div class="div_img" style="background-image: url(./img/bus_img03.jpg);"></div>
         </section>
-        <!-- End #top_02 -->
+        <!-- End #bus_sec02 -->
 
-        <section id="top_03">
-            <div class="col3" style="background-image: url(./img/top_img07.jpg);">
-                <div class="all_txt">
-                    <div class="title">世界最速の切断</div>
-                    <div class="txt">高品質・短納期を可能にする自動切断機。当社オリジナルにカスタマイズされており、生産効率が飛躍的にあがりました。大ロットの受注も可能の当社自慢の設備です。</div>
+        <section id="bus_sec03">
+            <div class="cont">
+                <h3 class="title">
+                    <img src="./img/bus_img04.svg" alt="-和田工業の強み">
+                </h3>
+                <div class="all_item">
+                    <div class="item">
+                        <div class="img" style="background-image: url(./img/bus_img05.png);"></div>
+                        <div class="text">
+                            <div class="title">
+                                世界トップクラスの設備
+                            </div>
+                            <div class="txt">
+                                高品質・短納期を可能にする自動切断機。当社オリジナルにカスタマイズすることで独自のノウハウが活かされています。生産効率を飛躍的に向上させることにより、大ロットの受注も可能となりました。より多くのニーズに応えることが出来る当社自慢の設備です。
+                            </div>
+                            <a href="./" class="btn_div hv-o">
+                                <img src="./img/bus_img05_btn.svg" alt="世界最速の切断">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img" style="background-image: url(./img/bus_img06.png);"></div>
+                        <div class="text">
+                            <div class="title">
+                                品質の安定性
+                            </div>
+                            <div class="txt">
+                                当社では品質マネジメントシステム「ISO9001」を認証取得し、お客様のニーズを満たした高品質な製品を提供し続けています。現場の加工オペレーターだけでなく、事務員も製品に精通しており、より高い品質を保つことが出来るため、お客様からも高い評価を頂いています。
+                            </div>
+                            <a href="./" class="btn_div hv-o">
+                                <img src="./img/bus_img06_btn.svg" alt="お客様の声">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img" style="background-image: url(./img/bus_img07.png);"></div>
+                        <div class="text">
+                            <div class="title">
+                                加工技術の高さ
+                            </div>
+                            <div class="txt">
+                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                            </div>
+                            <a href="./" class="btn_div hv-o">
+                                <img src="./img/bus_img07_btn.svg" alt="設備・製品紹介">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col3" style="background-image: url(./img/top_img08.jpg);">
-                <div class="all_txt">
-                    <div class="title">設備・製品紹介</div>
-                    <div class="txt">アジアに数台しかないオランダ製の設備を導入するほか、工場を増設し最新のイタリア設備も新たに導入。自社で専用の刃具を研ぐ技術をもっているため多様な切断が可能です。</div>
+            <div class="div_img" style="background-image: url(./img/bus_img08.jpg);"></div>
+        </section>
+        <!-- End #bus_sec03 -->
+
+        <section id="bus_sec04">
+            <div class="cont2">
+                <div class="col_txt">
+                    <h3 class="title">
+                        <img src="./img/bus_img10.svg" alt="-主な用途">
+                    </h3>
+                    <div class="all_item">
+                        <div class="div_ul">
+                            <div class="titl_ul">自動車用品</div>
+                            <ul>
+                                <li>・ヘッドレストステー</li>
+                                <li>・マフラーハンガー</li>
+                                <li>・フューエル</li>
+                                <li>・シートロッド</li>
+                                <li>・アームレストコンソール</li>
+                                <li>・スパークプラグ</li>
+                                <li>・インストルメントパネル</li>
+                                <li>・EGR</li>
+                                <li>・ブリザー</li>
+                                <li>・ウォーマー</li>
+                                <li>・エキゾーストマニホールド</li>
+                                <li>・オイルストレーナー</li>
+                                <li>・バッテリークランプ</li>
+                                <li>・鋳造冷却　など</li>
+                            </ul>
+                        </div>
+
+                        <div class="div_ul">
+                            <div class="titl_ul">その他</div>
+                            <ul>
+                                <li>・建材</li>
+                                <li>・各種カラー</li>
+                                <li>・ガス器具配線</li>
+                                <li>・鋼製家具　など</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+                <div class="col_img" style="background-image: url(./img/bus_img09.png);"></div>
             </div>
-            <div class="col3" style="background-image: url(./img/top_img09.jpg);">
-                <div class="all_txt">
-                    <div class="title">お客様からの声</div>
+        </section>
+        <!-- End #bus_sec04 -->
+
+        <section id="bus_sec05">
+            <div class="cont">
+                <h3 class="title">
+                    <img src="./img/bus_img11.svg" alt="-主な現場の流れ">
+                </h3>
+                <div class="div_img">
+                    <img src="./img/bus_img11_flow.svg" alt="入荷　切断　面取　検査　出荷">
+                </div>
+                <div class="div_all_item">
+                    <div class="item">
+                        <div class="text">
+                            <div class="title"><img src="./img/bus_img12_1.svg" alt="1" style="width: 100px;">長材の入荷</div>
+                            <div class="txt">
+                                4～5.5m程度の長い鉄パイプを長材と呼んでいます。<br>
+                                これが製品の材料になります。<br>
+                                長材はメーカーやお客様のトラックで運ばれてきてから、クレーンで各長材置き場に荷下ろしされます。
+                            </div>
+                        </div>
+                        <div class="img">
+                            <img src="./img/bus_img13.jpg" alt="長材の入荷">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text">
+                            <div class="title"><img src="./img/bus_img12_2.svg" alt="2">長材を切断</div>
+                            <div class="txt">
+                                入荷した長財を製品の長さに合わせて切る工程が切断です。<br>
+                                切断は最も技術が必要な工程で、和田工業のノウハウが凝縮されています。<br>
+                                切断には丸のこ切断と、突っ切り切断があります。
+                            </div>
+                        </div>
+                        <div class="img">
+                            <img src="./img/bus_img14.jpg" alt="長材を切断">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text">
+                            <div class="title"><img src="./img/bus_img12_3.svg" alt="3">切断品を面取</div>
+                            <div class="txt">
+                                切断されたパイプの端末をきれいに仕上る工程が面取です。切断品の端末を手で触るとバリバリしているのですが、それを面取でツルツルに仕上げます。<br>
+                                面取以外にもブラシ掛けやザグリなどの仕上げもあります。
+                            </div>
+                        </div>
+                        <div class="img">
+                            <img src="./img/bus_img15.jpg" alt="切断品を面取">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text">
+                            <div class="title"><img src="./img/bus_img12_4.svg" alt="4">面取品を検査</div>
+                            <div class="txt">
+                                面取されて製品としての形は出来上がりですが、お客様に出荷するためには不良品が混じっていないかを確認する必要があります。<br>
+                                それが検査工程で、通常は面取工程と合体しています。
+                            </div>
+                        </div>
+                        <div class="img">
+                            <img src="./img/bus_img16.jpg" alt="面取品を検査">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text">
+                            <div class="title"><img src="./img/bus_img12_5.svg" alt="5">製品を出荷</div>
+                            <div class="txt">
+                                全ての工程を経てついに出荷となります。<br>
+                                出荷の際には数量や納期、現品エフなどを確認します。
+                            </div>
+                        </div>
+                        <div class="img">
+                            <img src="./img/bus_img17.jpg" alt="製品を出荷">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- End #top_03 -->
+        <!-- End #bus_sec05 -->
 
         <section id="sec_ft">
             <div class="cont">
@@ -329,7 +415,7 @@
                 </div>
             </div>
             <div class="div_copy">
-                    Copyright© 2020 WADA INDUSTRY Co., Ltd. All Rights Reserved.
+                Copyright© 2020 WADA INDUSTRY Co., Ltd. All Rights Reserved.
             </div>
         </div>
     </footer>
