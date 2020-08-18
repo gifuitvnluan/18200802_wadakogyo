@@ -4127,7 +4127,7 @@ footer .all_ft .div_copy {
 	}
 
 	.group-ul-mac-01 li:nth-child(2n){
-		margin-left: 0;
+		margin-left: 0 !important;
 	}
 
 	.group-ul-mac-01 table td, .table-mac-01 tr>* {
