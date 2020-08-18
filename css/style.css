@@ -3670,6 +3670,60 @@ footer .all_ft .div_copy {
 	.group-ul-mac-01 table td,.table-mac-01 tr>*{
 		font-size: 1.293vw;
 	}
+
+	/* お客様からの声 */
+	.group-cus-01 {
+		padding-top: 6.897vw;
+	}
+
+	.img-cus-01 img {
+		width: 31.724vw;
+	}
+
+	.title-cus-h3-01 {
+		font-size: 1.897vw;
+		margin-top: 5.431vw;
+		margin-bottom: 4.828vw;
+	}
+
+	.item-cus-01-01:last-child>strong {
+		font-size: 1.379vw;
+		padding-bottom: 4.052vw;
+	}
+
+	.item-cus-01-01:last-child>h4 {
+		font-size: 2.241vw;
+	}
+
+	.item-cus-01-01:last-child>ul li p {
+		font-size: 1.379vw;
+		margin: 1.379vw 0;
+	}
+
+	.item-cus-01-01:first-child{
+		width: 25vw;
+	}
+
+	.item-cus-01-01:first-child span img,.item-cus-01-01:first-child span {
+		width: 25vw;
+		height: 25vw;
+	}
+
+	.item-cus-01-01:last-child {
+		width: calc(100% - 25vw);
+		padding-left: 6.034vw;
+		margin-top: -0.259vw;
+	}
+
+	.item-cus-01-01:last-child>ul li:not(:last-child) {
+		padding-bottom: 1.034vw;
+		margin-bottom: 2.672vw;
+	}
+
+	.title-case {
+		margin-bottom: 3.793vw;
+	}
+
 }
 
 @media screen and (max-width:767px) {
@@ -3807,6 +3861,25 @@ footer .all_ft .div_copy {
 		margin-left: 2.608vw;
 	}
 
+	#page_banner.group-banner-fastest .text .banner_bus {
+		width: 50.847vw;
+	}
+
+	#page_banner.group-banner-machine .text img.banner_bus {
+		width: 39.635vw;
+	}
+
+	#page_banner.group-banner-customers .text img.banner_bus {
+		width: 48.240vw;
+	}
+
+	#page_banner.group-banner-company .text img.banner_bus {
+		width: 21.382vw;
+	}
+
+	.table-mac-01{
+		margin: -5px 0;
+	}
 
 	/* 設備・製品紹介 */
 	.title-mac-h3-01 {
@@ -3855,6 +3928,57 @@ footer .all_ft .div_copy {
 	.table-mac-01 tr>* {
 		padding: 1.956vw 0 1.695vw 0;
 	}
+
+	/* お客様からの声 */
+	.group-cus-01 {
+		padding-top: 10.430vw;
+	}
+	.img-cus-01 img {
+		width: 47.979vw;
+	}
+	.title-cus-h3-01 {
+		font-size: 2.868vw;
+		margin-top: 7.823vw;
+		margin-bottom: 7.301vw;
+	}
+
+	.title-case span:first-child {
+		width: 21.904vw;
+	}
+	.title-case span:last-child{width: calc(100% - 21.904vw);}
+	.item-cus-01-01:first-child span img, .item-cus-01-01:first-child span {
+		width: 37.810vw;
+		height: 37.810vw;
+		margin: 0 auto;
+	}
+	.group-cus-item-01{flex-wrap: wrap;}
+	.item-cus-01-01:first-child {
+		width: 100%;
+	}
+
+	.item-cus-01-01:last-child {
+		width: 100%;
+		padding-left:0;
+		margin-top: 30px;
+	}
+
+	.item-cus-01-01:last-child>strong {
+		font-size: 2.086vw;
+		padding-bottom: 5.867vw;
+	}
+
+	.item-cus-01-01:last-child>h4 {
+		font-size: 3.390vw;
+	}
+
+	.item-cus-01-01:last-child>ul li p {
+		font-size: 2.086vw;
+		margin: 2.086vw 0;
+	}
+	.group-cus-rows-01 {
+		margin-bottom: 9.126vw;
+	}
+
 }
 
 @media all and (-ms-high-contrast:none) {
