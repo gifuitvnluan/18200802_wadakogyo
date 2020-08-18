@@ -3801,6 +3801,11 @@ footer .all_ft .div_copy {
 	.table-fas-01 tr:not(:first-child) td {
 		padding-top: 8.621vw;
 	}
+
+	.table-fas-01 td:first-child{
+		width: 15.172vw;
+	}
+
 	.table-fas-02 h3 {
 		margin-bottom: 1.724vw;
 	}
@@ -3933,6 +3938,12 @@ footer .all_ft .div_copy {
 		margin-bottom: 3.793vw;
 	}
 
+}
+
+@media screen and (max-width:950px){
+	.table-fas-01 td ul.flex{display: block;}
+	.table-fas-01 td ul.flex li{width: 100%;}
+	.table-fas-01 td ul.flex li:last-child{margin-left: 0;margin-top: 20px;}
 }
 
 @media screen and (max-width:900px){
@@ -4323,7 +4334,11 @@ footer .all_ft .div_copy {
 		letter-spacing: 0.430vw;
 	}
 
-	.table-fas-01 td{}
+	.table-fas-01 td ul li{width: 50%;}
+}
+
+@media screen and (max-width:480px){
+	.table-fas-01 td ul.flex li{text-align: center;}
 }
 
 @media all and (-ms-high-contrast:none) {
@@ -4347,6 +4362,10 @@ footer .all_ft .div_copy {
 	.group-ul-mac-01 li:nth-child(2n){
 		margin-left: 4.3vw;
 	}
+}
+
+@media all and (-ms-high-contrast:none) and (max-width: 425px) {
+	.table-fas-01 td ul.flex{max-width: 84.41vw;margin: 0 auto;}
 }
 
 @media all and (-ms-high-contrast:none) and (max-width: 767px) {
