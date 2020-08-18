@@ -526,6 +526,8 @@
     <script src="./js/check_browser.js"></script>
 
     <script type="text/javascript">
+    jQuery(window).load(function () {
+
       $he_top = $(".group-fix-scroll").offset().top;
       var he_menu = $(".group-fix-scroll").height();
       var show = $('.group-com-01').height() + $he_top;
@@ -542,13 +544,9 @@
 
         if($he_scroll > fix ){
           $(".group-fix-scroll").addClass('no-fix');
-          console.log($he_scroll);
         } else{
            $(".group-fix-scroll").removeClass('no-fix');
         }
-        // if($he_scroll < fix ){
-        //   $(".group-fix-scroll").removeClass('no-fix');
-        // }
 
       });
 
@@ -612,7 +610,7 @@
       });
 
 
-
+    });
     </script>
 
 </body>
