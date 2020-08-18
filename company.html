@@ -109,7 +109,7 @@
                 <div class="group-fix-scroll">
                   <h2>COMPANY MENU</h2>
                   <ul class="group-menu-scroll">
-                    <li><a href="#com01">代表挨拶</a></li>
+                    <li class="active"><a href="#com01">代表挨拶</a></li>
                     <li><a href="#com02">経営理念</a></li>
                     <li><a href="#com03">会社概要</a></li>
                     <li><a href="#com04">会社沿革</a></li>
@@ -547,7 +547,6 @@
         } else{
            $(".group-fix-scroll").removeClass('no-fix');
         }
-
       });
 
       $('.group-menu-scroll li a').click(function() {
@@ -566,7 +565,6 @@
             }
         }
       });
-
 
       $(window).scroll(function() {
         var kq="";
