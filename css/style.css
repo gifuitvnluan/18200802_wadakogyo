@@ -1968,13 +1968,13 @@ footer .all_ft .div_copy {
 		height: 52.803vw;
 	}
 	#page_banner .img {
-		height: 15.254vw;
+		height: inherit;
 	}
 	#page_banner .text {
 		padding-top: 2.608vw;
 		padding-left: 2.868vw;
-		padding-bottom: 1.724vw;
-		padding-right: 1.724vw;
+		padding-bottom: 1.824vw;
+		padding-right: 1.824vw;
 	}
 	#page_banner .text img.banner_bus {
 		width: 29.596vw;
@@ -2359,6 +2359,10 @@ footer .all_ft .div_copy {
 }
 
 @media screen and (max-width:480px) {
+	
+	header.hd_all_page .all_header{
+		padding-bottom: 15px;
+	}
 	#bus_sec02 .cont2 .col50_1 .title {
 		font-size: 5.206vw;
 	}
