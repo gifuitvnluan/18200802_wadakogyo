@@ -996,10 +996,10 @@ footer .all_ft .div_copy {
 /* OUR BUSINESS */
 
 #bus_sec01 {
-	background-image: url(../img/bus_bg01.png), url(../img/bus_bg01_after.png);
-	background-position: center top, bottom center;
+	background-image: url(../img/bus_bg01_after.png), url(../img/bus_bg01.png);
+	background-position: bottom center, center top;
 	background-repeat: no-repeat;
-	background-size: auto calc(420px - 73px), auto 73px;
+	background-size: auto 73px, auto calc(420px - 70px);
 	position: relative;
 	z-index: 1;
 	height: 420px;
@@ -1605,7 +1605,7 @@ footer .all_ft .div_copy {
 		height: 6.034vw;
 	}
 	#bus_sec01 {
-		background-size: auto calc(36.207vw - 6.293vw), auto 6.393vw;
+		background-size: auto 6.393vw, auto calc(36.207vw - 6.293vw);
 		height: 36.207vw;
 		margin-bottom: -1px;
 	}
@@ -1805,6 +1805,7 @@ footer .all_ft .div_copy {
 	#bus_sec05 .div_all_item .item .img {
 		margin-top: 3.017vw;
 		width: 100%;
+		text-align: center;
 	}
 	#bus_sec04 .cont2 {
 		flex-wrap: wrap;
@@ -1937,8 +1938,9 @@ footer .all_ft .div_copy {
 		font-size: 1.825vw;
 	}
 	#bus_sec01 {
-		background-image: url(../img/bus_bg01_sp.png), url(../img/bus_bg01_after_sp.png);
-		background-size: auto calc(54.759vw - 9.126vw), auto 9.126vw;
+		background-image: url(../img/bus_bg01_after_sp.png), url(../img/bus_bg01_sp.png);
+		background-position: bottom center, center top;
+		background-size: auto 9.526vw, auto calc(54.759vw - 8.126vw);
 		height: 54.759vw;
 	}
 	#bus_sec01 .all_text {
