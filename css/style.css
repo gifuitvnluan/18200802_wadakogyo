@@ -2755,7 +2755,7 @@ footer .all_ft .div_copy {
 
 .table-mac-01 th {
 	color: #FFFFFF;
-	width: calc(100% / 4);
+	width: 25% !important;
 	font-weight: bold;
 	background-color: #0B2264;
 }
@@ -3607,6 +3607,69 @@ footer .all_ft .div_copy {
 	.img-fas-02-01 {
 		margin-top: 4.483vw;
 	}
+
+	/* 設備・製品紹介 */
+	.group-mac-01{padding-top: 6.897vw;padding-bottom: 9.914vw;}
+	.img-mac-01, .img-mac-02{padding-left: 0;}
+	.group-mac-01 .table-fas-02-01 {
+		margin-top: 7.672vw;
+	}
+	.img-mac-01 img {
+		width: 30.345vw;
+	}
+	.group-mac-02 {
+		height: 38.793vw;
+	}
+	.img-mac-02 img {
+		width: 19.483vw;
+	}
+	.group-mac-03-01 {
+		margin-top: 4.052vw;
+		margin-bottom: -2.155vw;
+	}
+	.title-mac-h3-01 {
+		padding-left: 2.241vw;
+		margin-bottom: 1.810vw;
+	}
+	.group-ul-mac-01 li:nth-child(2n) {
+		margin-left: 4.310vw;
+	}
+	.group-ul-mac-01 li {
+		width: calc((100% - 4.310vw) / 2);
+		margin-bottom: 6.897vw;
+	}
+	.group-mac-03 {
+		padding-bottom: 7.759vw;
+	}
+
+	.group-mac-04-01 {
+		padding-top: 6.897vw;
+		margin-bottom: -9.483vw;
+	}
+
+	.group-mac-04-01 .group-ul-mac-01 li {
+		margin-bottom: 9.483vw;
+	}
+
+	.group-ul-mac-01 table td:first-child{
+		width: 10.431vw;
+		padding-left: 0.948vw;
+	}
+
+	.group-mac-04-01 .group-ul-mac-01 table td span,.group-ul-mac-01 table td span{
+		margin-left: 0;
+	}
+	.group-ul-mac-01 table td:last-child {
+		padding-left: 2.155vw;
+	}
+
+	.title-mac-h3-01{
+		font-size: 1.724vw;
+	}
+
+	.group-ul-mac-01 table td,.table-mac-01 tr>*{
+		font-size: 1.293vw;
+	}
 }
 
 @media screen and (max-width:767px) {
@@ -3681,7 +3744,8 @@ footer .all_ft .div_copy {
 		margin-bottom: 2.608vw;
 	}
 	.item-fas-02-01 p, .table-fas-02-01 td, .table-fas-02-02 table tr>* {
-		font-size: 2.086vw;
+		font-size: 1.956vw;
+		letter-spacing: -0.5px;
 	}
 	.rows-fas-02-01 {
 		padding-top: 9.126vw;
@@ -3736,12 +3800,77 @@ footer .all_ft .div_copy {
 	}
 
 	.table-fas-02-02 table tr th {
-		width: calc(100% / 5);
+		width: 20% !important;
+	}
+
+	.table-fas-01 li:not(:first-child) {
+		margin-left: 2.608vw;
+	}
+
+
+	/* 設備・製品紹介 */
+	.title-mac-h3-01 {
+		font-size: 2.608vw;
+	}
+	.img-mac-01 img {
+		width: 45.632vw;
+	}
+
+	.img-mac-02 img {
+		width: 29.465vw;
+	}
+
+	.group-ul-mac-01{
+		max-width: 480px;
+	margin: 0 auto;
+	}
+
+	.group-ul-mac-01 li{
+		width: 100%;
+	}
+
+	.group-ul-mac-01 li:nth-child(2n){
+		margin-left: 0;
+	}
+
+	.group-ul-mac-01 table td, .table-mac-01 tr>* {
+		font-size: 1.956vw;
+	}
+
+	.group-ul-mac-01 table td:first-child {
+		width: 15.776vw;
+		padding-left: 1.434vw;
+	}
+
+	.group-mac-03-01 {
+		margin-top: 6.128vw;
+		margin-bottom: -3.259vw;
+	}
+
+	.group-ul-mac-01 table td span{
+		padding-top: 0.261vw;	
+		padding-left: 2.608vw;
+	}
+
+	.table-mac-01 tr>* {
+		padding: 1.956vw 0 1.695vw 0;
 	}
 }
 
 @media all and (-ms-high-contrast:none) {
 	.group-ul-mac-01 table td span {
 		padding-top: 3px;
+	}
+}
+
+@media all and (-ms-high-contrast:none) and (max-width: 1160px) {
+	.group-ul-mac-01 li:nth-child(2n){
+		margin-left: 4.3vw;
+	}
+}
+
+@media all and (-ms-high-contrast:none) and (max-width: 767px) {
+	.group-ul-mac-01 table td span {
+		padding-top: 0.391vw;
 	}
 }
