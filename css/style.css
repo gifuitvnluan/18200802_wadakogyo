@@ -3304,6 +3304,7 @@ footer .all_ft .div_copy {
 
 .group-com-item:first-child {
 	width: 180px;
+	padding-top: 10px;
 	position: relative;
 }
 
@@ -3408,6 +3409,47 @@ footer .all_ft .div_copy {
 
 .img-com-05 img {
 	width: 222px;
+}
+#com01{
+	padding-bottom: 162px;
+}
+#com01 h2 ~ span {
+		margin-top: 88px;
+		display: block;
+}
+
+#com01 ul {
+	margin-top: 26px;
+}
+
+#com01 ul li{
+	width: 50%;
+	letter-spacing: -0.3px;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 175%;
+}
+#com01 ul li img{
+	float: right;
+	margin-top: 60px;
+}
+#com01 ul li:not(:first-child){
+	margin-left: 45px;
+}
+
+#com02 {
+	padding-top: 5px;
+	padding-bottom: 180px;
+}
+
+#com02 h2 ~ span {
+	display: block;
+	text-align: center;
+	margin-top: 103px;
+}
+
+#com02 h2 ~ span img{
+	width: 702px;
 }
 
 #com05 {
