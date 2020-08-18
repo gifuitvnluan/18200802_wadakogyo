@@ -3499,60 +3499,245 @@ footer .all_ft .div_copy {
 	height: 100%;
 }
 
-@media screen and (max-width:1900px){
+@media screen and (max-width:1900px) {
 	.group-menu-child-01 {
 		margin-bottom: 2.105vw;
 	}
-	.group-bar-color span{margin-bottom: 2vw;height: 1.263vw;}
-	.item-menu-child{padding-left: 2.105vw;}
-	.group-menu-child-01 .group-bar-color ~ .flex{padding-right: 10px;}
-	.item-menu-child ul li:first-child{width: 22.053vw;}
-	.item-menu-child ul li:not(:first-child){padding-left: 3.053vw;width: calc(100% - 22.053vw);}
-
-	.group-menu-child-01:first-child .item-menu-child:first-child li h3 img{width: 11.684vw;}
-	.group-menu-child-01:first-child .item-menu-child:last-child li h3 img{width: 22.105vw;}
-
-	.group-menu-child-01:last-child .item-menu-child:first-child li h3 img{width: 16.579vw;}
-	.group-menu-child-01:last-child .item-menu-child:last-child li h3 img{width: 20.789vw;}
-
-	.item-menu-child ul li h3 span{font-size: 1.158vw;}
+	.group-bar-color span {
+		margin-bottom: 2vw;
+		height: 1.263vw;
+	}
+	.item-menu-child {
+		padding-left: 2.105vw;
+	}
+	.group-menu-child-01 .group-bar-color~.flex {
+		padding-right: 10px;
+	}
+	.item-menu-child ul li:first-child {
+		width: 22.053vw;
+	}
+	.item-menu-child ul li:not(:first-child) {
+		padding-left: 3.053vw;
+		width: calc(100% - 22.053vw);
+	}
+	.group-menu-child-01:first-child .item-menu-child:first-child li h3 img {
+		width: 11.684vw;
+	}
+	.group-menu-child-01:first-child .item-menu-child:last-child li h3 img {
+		width: 22.105vw;
+	}
+	.group-menu-child-01:last-child .item-menu-child:first-child li h3 img {
+		width: 16.579vw;
+	}
+	.group-menu-child-01:last-child .item-menu-child:last-child li h3 img {
+		width: 20.789vw;
+	}
+	.item-menu-child ul li h3 span {
+		font-size: 1.158vw;
+	}
 }
 
-@media screen and (max-width:1160px){
-/* 世界最速の切断 */
-.group-menu-child{margin-top: 11.207vw;}
-.img-fas-02 img{width: 81.034vw;}
-.iframe-fas-01{height: 51.293vw;}
-.item-fas-02-01:first-child {width: 36.379vw;}
-.item-fas-02-01:last-child{width: calc(100% - 36.379vw);}
-.item-fas-02-01 h3{font-size: 2.759vw;margin-bottom: 1.724vw;}
-.item-fas-02-01 p{font-size: 1.293vw;}
-.img-fas-05 span{max-width: 48.276vw;display: inline-block;}
-.img-fas-05{margin-top: 6.897vw;}
-.table-fas-02-01 td{vertical-align: middle;}
-.table-fas-02-01 table, .table-fas-02-02 table{
-	border-spacing: 0 5px;
-	margin:-5px 0;
-}
+@media screen and (max-width:1160px) {
+	/* 世界最速の切断 */
+	.group-menu-child {
+		margin-top: 11.207vw;
+	}
+	.img-fas-02 img {
+		width: 81.034vw;
+	}
+	.iframe-fas-01 {
+		height: 51.293vw;
+	}
+	.item-fas-02-01:first-child {
+		width: 36.379vw;
+	}
+	.item-fas-02-01:last-child {
+		width: calc(100% - 36.379vw);
+	}
+	.item-fas-02-01 h3 {
+		font-size: 2.759vw;
+		margin-bottom: 1.724vw;
+	}
+	.item-fas-02-01 p, .table-fas-02-01 td, .table-fas-02-02 table tr>* {
+		font-size: 1.293vw;
+	}
+	.img-fas-05 span {
+		max-width: 48.276vw;
+		display: inline-block;
+	}
+	.img-fas-05 {
+		margin-top: 6.897vw;
+	}
+	.table-fas-02-01 td {
+		vertical-align: middle;
+	}
+	.img-fas-04 {
+		padding-left: 0;
+	}
+	.table-fas-01 td {
+		font-size: 1.552vw;
+	}
+	.table-fas-01 td:first-child, .table-fas-02 h3 {
+		font-size: 1.724vw;
+	}
+	.img-fas-04 img {
+		width: 19.224vw;
+	}
+	.img-fas-01 img {
+		width: 25.862vw;
+	}
+	.img-fas-03 {
+		padding-left: 1.724vw;
+	}
+	.table-fas-01 tr:not(:first-child) td {
+		padding-top: 8.621vw;
+	}
+	.table-fas-02 h3 {
+		margin-bottom: 1.724vw;
+	}
+	.table-fas-02-01 {
+		margin-top: 6.897vw;
+	}
+	.table-fas-02 {
+		margin-top: 4.310vw;
+	}
+	.rows-fas-02-01 {
+		padding-top: 6.466vw;
+	}
+	.img-fas-02-01 {
+		margin-top: 4.483vw;
+	}
 }
 
-
-@media screen and (max-width:767px){
+@media screen and (max-width:767px) {
 	.group-menu-child {
 		margin-top: 13.038vw;
 	}
-	.group-bar-color span::before{width: 15.645vw;}
-	.group-menu-child-01 .group-bar-color ~ .flex{flex-wrap: wrap;padding-right: 0;}
-	.item-menu-child{width: 100%;padding: 1.304vw 15px;}
-	.item-menu-child ul li:first-child{width: 52.151vw;}
-	.item-menu-child ul li:not(:first-child){width: calc(52.151vw);}
+	.group-bar-color span::before {
+		width: 15.645vw;
+	}
+	.group-menu-child-01 .group-bar-color~.flex {
+		flex-wrap: wrap;
+		padding-right: 0;
+	}
+	.item-menu-child {
+		width: 100%;
+		padding: 1.304vw 15px;
+	}
+	.item-menu-child ul li:first-child {
+		width: 52.151vw;
+	}
+	.item-menu-child ul li:not(:first-child) {
+		width: calc(52.151vw);
+	}
+	.group-menu-child-01:first-child .item-menu-child:first-child li h3 img {
+		width: 26.076vw;
+	}
+	.group-menu-child-01:first-child .item-menu-child:last-child li h3 img {
+		width: 52.151vw;
+	}
+	.group-menu-child-01:last-child .item-menu-child:first-child li h3 img {
+		width: 38.462vw;
+	}
+	.group-menu-child-01:last-child .item-menu-child:last-child li h3 img {
+		width: 48.892vw;
+	}
+	.item-menu-child ul li h3 span {
+		font-size: 2.868vw;
+	}
+	/* 世界最速の切断 */
+	.table-fas-02-01 table, .table-fas-02-02 table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.group-fas-01 h2 {
+		margin-bottom: 4.824vw;
+	}
+	.img-fas-01 img {
+		width: 39.113vw;
+	}
+	.img-fas-02 img {
+		width: 91.265vw;
+	}
+	.iframe-fas-01 {
+		height: 50.6vw;
+		margin-top: 2.999vw;
+	}
+	.group-fas-01 {
+		padding: 7.171vw 0;
+	}
+	.rows-fas-02-01 ul li {
+		flex-wrap: wrap;
+	}
+	.item-fas-02-01:first-child, .item-fas-02-01:last-child {
+		width: 100%;
+		padding: 0;
+	}
+	.item-fas-02-01:last-child {
+		padding-top: 20px;
+	}
+	.item-fas-02-01 h3 {
+		font-size: 4.172vw;
+		margin-bottom: 2.608vw;
+	}
+	.item-fas-02-01 p, .table-fas-02-01 td, .table-fas-02-02 table tr>* {
+		font-size: 2.086vw;
+	}
+	.rows-fas-02-01 {
+		padding-top: 9.126vw;
+	}
+	.img-fas-04 img {
+		width: 39.113vw;
+	}
+	.table-fas-01 td, .table-fas-02-01 td {
+		width: 100% !important;
+		float: left;
+	}
+	.table-fas-01 td:last-child {
+		padding-top: 15px !important;
+	}
+	.table-fas-01 td:first-child, .table-fas-02 h3 {
+		font-size: 3.259vw;
+	}
+	.table-fas-01 td {
+		font-size: 2.608vw;
+	}
+	.table-fas-01 {
+		margin-top: 8.475vw;
+	}
+	.table-fas-02-01 table {
+		border-spacing: 0 5px;
+	}
+	.table-fas-02-01 td:first-child {
+		text-align: left;
+	}
+	.img-fas-05 {
+		text-align: center;
+		padding-bottom: 0;
+	}
+	.img-fas-05 span {
+		max-width: 560px;
+		margin: 0 auto;
+	}
+	.img-fas-05 .po-img-02 {
+		position: relative;
+		margin-top: 25px;
+		display: inline-block;
+	}
+	.table-fas-02-01 td {
+		padding-left: 2.608vw;
+		padding-right: 2.608vw;
+	}
+	.group-fas-01 h2 span:not(:first-child) {
+		margin-top: 4.694vw;
+	}
+	.img-fas-03 img {
+		width: 150px;
+	}
 
-	.group-menu-child-01:first-child .item-menu-child:first-child li h3 img{width: 26.076vw;}
-	.group-menu-child-01:first-child .item-menu-child:last-child li h3 img{width: 52.151vw;}
-
-	.group-menu-child-01:last-child .item-menu-child:first-child li h3 img{width: 38.462vw;}
-	.group-menu-child-01:last-child .item-menu-child:last-child li h3 img{width: 48.892vw;}
-	.item-menu-child ul li h3 span{font-size: 2.868vw;}
+	.table-fas-02-02 table tr th {
+		width: calc(100% / 5);
+	}
 }
 
 @media all and (-ms-high-contrast:none) {
