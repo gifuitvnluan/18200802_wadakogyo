@@ -571,7 +571,7 @@
         var kq="";
           $('.group-com-he').each(function (i) {
               heightdivtotop = $(this).offset().top;
-                      heightdivtotopEnd = $(this).offset().top+$(this).height();
+                      heightdivtotopEnd = $(this).offset().top+$(this).outerHeight();;
                       var scroll = $(window).scrollTop();
                       console.log();
                           if (scroll >= heightdivtotop && scroll <=  heightdivtotopEnd ) {
