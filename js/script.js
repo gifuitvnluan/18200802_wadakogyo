@@ -116,4 +116,10 @@ $(document).ready(function () {
             next();
         }); 
     })
+
+    
+    $("<div class='bg_add'></div>").appendTo("#rec01 .all_txt").delay(100).queue(function(next){
+        $(".bg_add").css("width",$("#rec01 h2").width()+((($(window).width() + 20) - $(".gird-1200").width()) / 2));
+        next();
+    }); 
 });

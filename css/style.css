@@ -677,12 +677,14 @@ footer .all_ft .div_copy {
 	letter-spacing: 0.5px;
 	color: #FFFFFF;
 	font-weight: bold;
-	padding-top: 3px;
+	/* padding-top: 3px; */
+	padding-left: 2px;
 	transition: none;
 	-webkit-transition: none;
 	-moz-transition: none;
 	-ms-transition: none;
 	-o-transition: none;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 #sec_slide .slider .slick-dots li.slick-active a, #sec_slide .slider .slick-dots li:hover a {
@@ -1307,6 +1309,32 @@ footer .all_ft .div_copy {
 
 #bus_sec05 .div_all_item .item .img {
 	width: 53.706%;
+}
+
+#rec01 .title img{
+	width: 370px;
+}
+
+#rec01 .all_txt{
+	position: relative;
+	z-index: 2;
+}
+
+#rec01 .all_txt .bg_add{
+	content: "";
+	background-image: url(../img/rec_img03.png);
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
+#rec01 .all_txt .img, #rec01 .all_txt .txt{
+	max-width: 720px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @-webkit-keyframes sdb {
@@ -2803,7 +2831,7 @@ footer .all_ft .div_copy {
 
 .group-ul-mac-01 li>span {
 	display: block;
-	margin-bottom: 11px;
+	margin-bottom: 0;
 }
 
 .group-ul-mac-01 table {
@@ -2822,6 +2850,7 @@ footer .all_ft .div_copy {
 	line-height: 170%;
 	padding: 6px 0;
 	vertical-align: middle;
+	padding-top: 18px;
 }
 
 .group-ul-mac-01 table td:first-child {
@@ -3067,6 +3096,7 @@ footer .all_ft .div_copy {
 	position: relative;
 	display: inline-block;
 	transition: all 0.35s;
+	white-space: nowrap;
 }
 
 .group-menu-scroll li {
