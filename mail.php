@@ -33,14 +33,14 @@ if (version_compare(PHP_VERSION, '5.1.0', '>=')) {//PHP5.1.0以上の場合の�
 //---------------------------　必須設定　必ず設定してください　-----------------------
 
 //サイトのトップページのURL　※デフォルトでは送信完了後に「トップページへ戻る」ボタンが表示されますので
-$site_top = "http://apmcorp.co.jp/";
+$site_top = "https://projects.gkv.vn/hoan/418200802_wadakogyo/";
 
 // 管理者メールアドレス ※メールを受け取るメールアドレス(複数指定する場合は「,」で区切ってください 例 $to = "aa@aa.aa,bb@bb.bb";)
-$to = "kinoshita@apmcorp.co.jp";
+$to = "r-inagaki@eks-hoan.co.jp";
 
 //自動返信メールの送信元メールアドレス
 //必ず実在するメールアドレスでかつ出来る限り設置先サイトのドメインと同じドメインのメールアドレスとすることを強く推奨します
-$from = "kinoshita@apmcorp.co.jp";
+$from = "r-inagaki@eks-hoan.co.jp";
 
 
 
@@ -88,7 +88,7 @@ $confirmDsp = 0;
 $jumpPage = 1;
 
 // 送信完了後に表示するページURL（上記で1を設定した場合のみ）※httpから始まるURLで指定ください。（相対パスでも基本的には問題ないです）
-$thanksPage = "http://apmcorp.co.jp/thanks.html";
+$thanksPage = "https://projects.gkv.vn/hoan/418200802_wadakogyo/thanks.html";
 
 // 必須入力項目を設定する(する=1, しない=0)
 $requireCheck = 1;
@@ -96,7 +96,7 @@ $requireCheck = 1;
 /* 必須入力項目(入力フォームで指定したname属性の値を指定してください。（上記で1を設定した場合のみ）
 値はシングルクォーテーションで囲み、複数の場合はカンマで区切ってください。フォーム側と順番を合わせると良いです。 
 配列の形「name="○○[]"」の場合には必ず後ろの[]を取ったものを指定して下さい。*/
-$require = array('お名前','電話番号','メールアドレス','お問い合わせ内容');
+$require = array('お問い合わせ種別','氏名','フリガナ','電話番号','Email','Email（確認用）','お問い合わせ内容');
 
 //----------------------------------------------------------------------
 //  自動返信メール設定(START)
@@ -140,11 +140,11 @@ $mailFooterDsp = 1;
 $mailSignature = <<< FOOTER
 
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
-株式会社エイピィエム
-〒465-0051
-愛知県名古屋市名東区社が丘1丁目407
-TEL : (052)704-0081（代）
-URL : http://apmcorp.co.jp/
+株式会社和田工業
+〒470-1141
+愛知県豊明市阿野町長根2番地1
+TEL : 0562-96-2881
+URL : https://projects.gkv.vn/hoan/418200802_wadakogyo/
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 FOOTER;
 

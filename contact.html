@@ -121,7 +121,113 @@
                     <a href="tel:0562962881"><img src="./img/contact_img01.svg" alt="0562-96-2881"></a>
                 </h3>
                 <div class="div_txt">
-                    この度はお問い合わせをいただき、誠にありがとうございます。<br><br>頂戴いたしましたお問い合わせにつきましては、<br>内容を確認の上、後ほどご回答いたします。<br><br>なお、お問い合わせの内容によっては、<br>ご回答まで数日かかる場合やご回答いたしかねる場合がございます。<br>恐れ入りますが、予めご了承くださいますようお願いいたします。
+                    ご質問・お問い合わせをご希望のお客様は下記のフォームをご入力ください。<br>末尾に記載の「プライバシーポリシーの同意」をご確認の上送信してください。<br>通常2、3営業日で担当者から折り返しご連絡させていただきます。（お送りいただいた内容によって返信が2、3営業日以上かかる場合、またはお答えしかねる場合がございます。ご了承ください。）<br>お急ぎのお客様はお電話でお問い合わせください。
+                </div>
+                <div class="div_form">
+                    <form action="mail.php" method="post">
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="txt">お問い合わせ種別<img src="./img/contact_img03.svg" alt="リクエスト"
+                                            class="img_req"></div>
+                                </td>
+                                <td>
+                                    <div class="div_rad">
+                                        <input type="radio" id="corporate" name="お問い合わせ種別" value="企業情報について" required><label
+                                            for="corporate">企業情報について</label><input type="radio" id="information"
+                                            name="お問い合わせ種別" value="採用情報について"><label for="information">採用情報について</label><input
+                                            type="radio" id="request" name="お問い合わせ種別" value="お見積り・ご依頼について"><label
+                                            for="request">お見積り・ご依頼について</label><br><input type="radio" id="consultation"
+                                            name="お問い合わせ種別" value="ご意見・ご相談"><label for="consultation">ご意見・ご相談</label><input
+                                            type="radio" id="other" name="お問い合わせ種別" value="その他"><label
+                                            for="other">その他</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="txt">氏名<img src="./img/contact_img03.svg" alt="リクエスト" class="img_req">
+                                    </div>
+                                </td>
+                                <td><input type="text" name="氏名" required></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="txt">フリガナ<img src="./img/contact_img03.svg" alt="リクエスト" class="img_req">
+                                    </div>
+                                </td>
+                                <td><input type="text" name="フリガナ" required></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="txt">会社名</div>
+                                </td>
+                                <td><input type="text" name="会社名" class="ib_full"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="txt">郵便番号</div>
+                                </td>
+                                <td><input type="text" name="郵便番号"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="txt">住所</div>
+                                </td>
+                                <td><input type="text" name="住所" class="ib_full"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><input type="text" name="住所2" class="ib_full"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="txt">電話番号<img src="./img/contact_img03.svg" alt="リクエスト" class="img_req">
+                                    </div>
+                                </td>
+                                <td><input type="text" name="電話番号" required></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="txt">Email<img src="./img/contact_img03.svg" alt="リクエスト"
+                                            class="img_req"></div>
+                                </td>
+                                <td><input type="email" name="Email" class="ib_full" required></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="txt">Email（確認用）<img src="./img/contact_img03.svg" alt="リクエスト"
+                                            class="img_req"></div>
+                                </td>
+                                <td><input type="email" name="Email（確認用）" class="ib_full" required></td>
+                            </tr>
+                            <tr class="tr_borbot">
+                                <td>
+                                    <div class="txt">お問い合わせ内容<img src="./img/contact_img03.svg" alt="リクエスト"
+                                            class="img_req"></div>
+                                </td>
+                                <td><textarea name="お問い合わせ内容" required></textarea><div class="txtnote">
+                                    <img src="./img/contact_img03.svg" alt="リクエスト" class="img_req">は必須項目です。
+                                </div></td>
+                            </tr>
+                            <tr class="tr_borbot">
+                                <td colspan="2" class="pri_row">
+                                    <div class="div_pri">
+                                        <div class="div_all">
+                                            <input type="checkbox" id="pri" name="privacy" value="プライバシーポリシーについて" required><label
+                                            for="pri">プライバシーポリシーの内容に同意する<br><a
+                                                href="./privacy.html">プライバシーポリシーについて</a></label>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="tr_borbot">
+                                <td colspan="2" class="pri_btn">
+                                    <input type="submit" value="送信">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
                 </div>
             </div>
         </section>
