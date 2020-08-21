@@ -2508,10 +2508,10 @@ footer .all_ft .div_copy {
 		margin-bottom: 1.250vw;
 	}
 
-	.mes_div01 .mes_div {
+	/* .mes_div01 .mes_div {
 		padding-left: calc(5.867vw - 15px);
 		padding-right: calc(5.867vw - 15px);
-	}
+	} */
 
 	.mes_div .div_content .img {
 		width: 100%;
@@ -2562,6 +2562,13 @@ footer .all_ft .div_copy {
 
 	#bus_sec04 .cont2 {
 		flex-wrap: wrap;
+		padding-left: 5.867vw;
+		padding-right: 5.867vw;
+	}
+
+	#bus_sec05 .cont {
+		padding-left: 5.867vw;
+		padding-right: 5.867vw;
 	}
 
 	#bus_sec04 .col_txt h3.title {
@@ -5223,6 +5230,10 @@ footer .all_ft .div_copy {
 }
 
 @media screen and (max-width:767px) {
+	#bus_sec03 .cont {
+		padding-left: 5.867vw;
+		padding-right: 5.867vw;
+	}
 
 	.mes_div .div_note {
 		min-height: auto;
@@ -5310,7 +5321,7 @@ footer .all_ft .div_copy {
 	#mes01 .div_bg_img {
 		height: 39.113vw;
 		width: 100vw !important;
-		margin-left: -15px;
+		margin-left: calc(-5.867vw - 15px);
 		margin-bottom: 5.606vw;
 		background-size: contain;
 	}
@@ -5533,7 +5544,7 @@ footer .all_ft .div_copy {
 
 	#rec01 .all_txt .bg_add {
 		width: 100vw !important;
-		left: -15px;
+		left: calc(-5.867vw - 15px);
 	}
 
 	#rec01 .all_txt .bg_add .img_add {
@@ -5558,7 +5569,7 @@ footer .all_ft .div_copy {
 
 	.item-menu-child {
 		width: 100%;
-		padding: 1.304vw 15px;
+		padding: 1.304vw 5.867vw;
 	}
 
 	.item-menu-child ul li:first-child {
@@ -5615,6 +5626,11 @@ footer .all_ft .div_copy {
 
 	.group-fas-01 {
 		padding: 7.171vw 0;
+	}
+
+	.group-fas-01 .cont, .group-fas-02 .cont, .group-mac-01 .cont, .group-mac-03 .cont, .group-mac-04 .cont, .group-cus-01 .cont{
+		padding-left: 5.867vw;
+    	padding-right: 5.867vw;
 	}
 
 	.rows-fas-02-01 ul li {
@@ -5860,6 +5876,8 @@ footer .all_ft .div_copy {
 	.group-com-item:last-child {
 		padding-left: 0;
 		margin-top: 40px;
+		padding-left: calc(5.867vw - 15px);
+		padding-right: calc(5.867vw - 15px);
 	}
 
 	.group-com-item {
