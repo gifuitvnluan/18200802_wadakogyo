@@ -116,4 +116,18 @@ $(document).ready(function () {
             next();
         }); 
     })
+
+        $("<div class='bg_add'></div>").appendTo("#rec01 .all_txt").delay(100).queue(function(next){
+            $(".bg_add").css("width",$("#rec01 h2").width()+((($(window).width() + 20) - $(".gird-1200").width()) / 2));
+            next();
+    
+            $("<div class='img_add'></div>").appendTo(".bg_add").delay(100).queue(function(next){
+                next();
+            }); 
+        }); 
+    
+        $("<div class='bg_add2'></div>").appendTo("#rec06 .all_text").delay(100).queue(function(next){
+            $(".bg_add2").css("width",$("#rec06 h2").width()+((($(window).width() + 20) - $(".gird-1200").width()) / 2));
+            next();
+        }); 
 });
