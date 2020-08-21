@@ -551,6 +551,10 @@ footer .all_ft .div_copy {
 	display: block;
 }
 
+#page_banner .text img.banner_pri {
+	width: 334px;
+}
+
 #page_banner .text img.banner_bus.show_sp {
 	display: none;
 }
@@ -1883,6 +1887,100 @@ footer .all_ft .div_copy {
 	padding-top: 10px;
 }
 
+#pri_sec01 {
+	border-top: 1px solid #ABABAB;
+	padding-top: 90px;
+}
+
+#pri_sec01 .div_bor {
+	display: block;
+	max-width: 930px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #000000;
+	margin-bottom: 40px;
+}
+
+#pri_sec01 .div_txt {
+	display: block;
+	max-width: 800px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pri_sec01 .div_txt .img {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+#pri_sec01 .div_txt img {
+	width: 463px;
+}
+
+#pri_sec01 .title {
+	width: 247px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+#pri_sec01 .txt {
+	font-size: 15px;
+	line-height: 200%;
+	color: #000000;
+}
+
+#pri_sec01 .div_txt ul li strong {
+	display: block;
+	font-size: 17px;
+	line-height: 177%;
+	font-weight: bold;
+	color: #000000;
+}
+
+#pri_sec01 .div_txt ul li {
+	font-size: 15px;
+	line-height: 200%;
+	color: #000000;
+	padding-left: 18px;
+	position: relative;
+	z-index: 1;
+	margin-top: 30px;
+}
+
+#pri_sec01 .div_txt ul li:before {
+	content: url(../img/pri_img03.svg);
+	width: 14px;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+
+#pri_sec01 .div_txt .txt2 {
+	font-size: 15px;
+	line-height: 175%;
+	color: #000000;
+}
+
+#pri_sec01 .div_txt .txt2 a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#pri_sec01 .div_txt .txt2 a.formlink {
+	display: block;
+	color: #1B307A;
+	font-weight: bold;
+}
+
+#pri_sec01 .div_txt .txt2 a.formlink:hover {
+	text-decoration: underline;
+}
+
 @-webkit-keyframes sdb {
 	0% {
 		-webkit-transform: translate(0, 0);
@@ -2106,6 +2204,11 @@ footer .all_ft .div_copy {
 }
 
 @media screen and (max-width:1160px) {
+
+	#page_banner .text img.banner_pri {
+		width: 28.793vw;
+	}
+
 	#bus_sec04 .cont2 {
 		padding-top: 13.621vw;
 	}
@@ -2503,6 +2606,10 @@ footer .all_ft .div_copy {
 }
 
 @media screen and (max-width:767px) {
+	#page_banner .text img.banner_pri {
+		width: 32.595vw;
+	}
+
 	.mes_div .div_content {
 		padding-top: 3.911vw;
 		margin-bottom: 1.250vw;
@@ -4459,6 +4566,60 @@ footer .all_ft .div_copy {
 }
 
 @media screen and (max-width:1200px) {
+
+
+	#pri_sec01 {
+		padding-top: 7.500vw;
+	}
+
+	#pri_sec01 .div_bor {
+		max-width: 77.500vw;
+		padding-bottom: 3.333vw;
+		margin-bottom: 3.333vw;
+	}
+
+	#pri_sec01 .div_txt {
+		max-width: 66.667vw;
+	}
+
+	#pri_sec01 .div_txt .img {
+		margin-top: 2.500vw;
+		margin-bottom: 0.833vw;
+	}
+
+	#pri_sec01 .div_txt img {
+		width: 38.583vw;
+	}
+
+	#pri_sec01 .title {
+		width: 20.583vw;
+		margin-bottom: 3.333vw;
+	}
+
+	#pri_sec01 .txt {
+		font-size: 1.250vw;
+	}
+
+	#pri_sec01 .div_txt ul li strong {
+		font-size: 1.417vw;
+	}
+
+	#pri_sec01 .div_txt ul li {
+		font-size: 1.250vw;
+		padding-left: 1.500vw;
+		margin-top: 2.500vw;
+	}
+
+	#pri_sec01 .div_txt ul li:before {
+		width: 1.167vw;
+		top: 0.167vw;
+		left: 0.167vw;
+	}
+
+	#pri_sec01 .div_txt .txt2 {
+		font-size: 1.250vw;
+	}
+
 	#mes01 .title {
 		width: 30.833vw;
 		padding-bottom: 1.667vw;
@@ -5230,7 +5391,65 @@ footer .all_ft .div_copy {
 }
 
 @media screen and (max-width:767px) {
-	#bus_sec03 .cont {
+	#pri_sec01 .div_bor {
+		max-width: none;
+		padding-bottom: 5.215vw;
+		margin-bottom: 5.215vw;
+	}
+
+	#pri_sec01 .div_txt .img {
+		margin-top: 3.911vw;
+		margin-bottom: 1.304vw;
+	}
+
+	#pri_sec01 .div_txt img {
+		width: 60.365vw;
+	}
+
+	#pri_sec01 .div_txt .txt2 {
+		font-size: 1.956vw;
+	}
+
+	#pri_sec01 .div_txt {
+		max-width: none;
+	}
+
+	#pri_sec01 {
+		padding-top: 11.734vw;
+	}
+
+	#pri_sec01 .title {
+		width: 32.203vw;
+		margin-bottom: 5.215vw;
+	}
+
+	#pri_sec01 .div_txt ul li {
+		font-size: 2.086vw;
+		padding-left: 2.347vw;
+		margin-top: 2.500vw;
+	}
+
+	#pri_sec01 .div_txt ul li:before {
+		width: 1.825vw;
+		top: 0.161vw;
+		left: 0.261vw;
+	}
+
+	#pri_sec01 .div_txt ul li strong {
+		font-size: 2.216vw;
+	}
+
+	#pri_sec01 .div_txt ul li {
+		font-size: 2.086vw;
+		padding-left: 2.347vw;
+		margin-top: 3.911vw;
+	}
+
+	#pri_sec01 .txt {
+		font-size: 2.086vw;
+	}
+
+	#bus_sec03 .cont, #pri_sec01 .cont {
 		padding-left: 5.867vw;
 		padding-right: 5.867vw;
 	}
@@ -5279,7 +5498,7 @@ footer .all_ft .div_copy {
 		padding-bottom: 9.126vw;
 	}
 
-	.mes_div .div_content .text .item:last-child .txt{
+	.mes_div .div_content .text .item:last-child .txt {
 		padding-bottom: 5.215vw;
 	}
 
@@ -5628,9 +5847,14 @@ footer .all_ft .div_copy {
 		padding: 7.171vw 0;
 	}
 
-	.group-fas-01 .cont, .group-fas-02 .cont, .group-mac-01 .cont, .group-mac-03 .cont, .group-mac-04 .cont, .group-cus-01 .cont{
+	.group-fas-01 .cont,
+	.group-fas-02 .cont,
+	.group-mac-01 .cont,
+	.group-mac-03 .cont,
+	.group-mac-04 .cont,
+	.group-cus-01 .cont {
 		padding-left: 5.867vw;
-    	padding-right: 5.867vw;
+		padding-right: 5.867vw;
 	}
 
 	.rows-fas-02-01 ul li {
