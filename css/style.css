@@ -1729,11 +1729,13 @@ footer .all_ft .div_copy {
 
 #rec06 .all_text .item {
 	width: 47.033%;
+	margin-right: 5.934%;
 	margin-bottom: 37px;
 }
 
 #rec06 .all_text .item:nth-child(even) {
 	text-align: right;
+	margin-right: 0%;
 }
 
 #mes01 {
@@ -1853,13 +1855,14 @@ footer .all_ft .div_copy {
 	min-height: 260px;
 	max-width: 780px;
 	width: 100%;
-	margin-left: auto;
+	margin-left: 90px;
 	margin-right: auto;
 	border: 4px solid #D7D7D7;
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-start;
 	padding-top: 27px;
+	padding-bottom: 27px;
 }
 
 .mes_div .div_note .img {
@@ -1996,7 +1999,7 @@ footer .all_ft .div_copy {
 }
 
 #inf_sec01 .title {
-	width: 233px;
+	width: 322px;
 	display: block;
 	padding-left: 38px;
 }
@@ -4507,6 +4510,7 @@ input[type=radio] {
 	letter-spacing: 0;
 	line-height: 165%;
 	padding: 0;
+	vertical-align: top;
 }
 
 #com03 table td:first-child {
@@ -4947,7 +4951,7 @@ input[type=radio] {
 	}
 
 	#inf_sec01 .title {
-		width: 19.417vw;
+		width: 27.759vw;
 		padding-left: 3.167vw;
 	}
 
@@ -5079,6 +5083,8 @@ input[type=radio] {
 		min-height: 21.667vw;
 		max-width: 65vw;
 		padding-top: 2.250vw;
+		margin-left: 7.500vw;
+		padding-bottom: 2.250vw;
 	}
 
 	.mes_div .div_note .title {
@@ -5814,6 +5820,11 @@ input[type=radio] {
 }
 
 @media screen and (max-width:767px) {
+	
+
+	#contact_sec01 .div_form table tr td.pri_btn {
+		padding-top: 5.608vw !important;
+	}
 	#contact_sec01 .div_form table tr td .div_pri {
 		width: 100%;
 		height: 10.430vw;
@@ -5921,7 +5932,7 @@ input[type=radio] {
 	}
 
 	#inf_sec01 .title {
-		width: 30.378vw;
+		width: 41.982vw;
 		padding-left: 0;
 	}
 
@@ -6002,6 +6013,9 @@ input[type=radio] {
 		padding-top: 2.608vw;
 		justify-content: flex-start;
 		padding-bottom: 4.563vw;
+		margin-left: 0;
+		padding-right: 20px;
+		padding-bottom: 2.608vw;
 	}
 
 	.mes_div .div_note .title,
@@ -6106,6 +6120,7 @@ input[type=radio] {
 		padding-right: 3.259vw;
 		padding-left: 3.259vw;
 		text-align: center;
+		margin-right: 0;
 	}
 
 	#rec06 .all_text .item:nth-child(even) {
